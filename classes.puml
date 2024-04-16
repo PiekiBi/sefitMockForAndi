@@ -1,0 +1,19 @@
+@startuml
+
+class Aspect {
+    - name : string
+}
+
+class ExampleObject {
+    - userName : string
+    - description : string
+    - aspects : Aspects[]
+    - isRequest : bool
+}
+
+class ServerAnswer{
+    - status : string
+    - message : string
+}
+
+@enduml
